@@ -1,0 +1,55 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [100]
+  },
+  "editor.minimap.enabled": false,
+  "ruby.useLanguageServer": true,
+  "ruby.format": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true
+  },
+  "editor.codeActionsOnSave": {},
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "workbench.colorTheme": "Default High Contrast",
+  "settingsSync.ignoredExtensions": [],
+  "settingsSync.ignoredSettings": [],
+  "rufo.exe": "/Users/ancaen/.gem/ruby/2.7.0/bin/rufo",
+  "rubyLsp.featuresConfiguration": {},
+  "rubyLsp.formatter": "rubocop",
+  "rubyLsp.pullDiagnosticsOn": "save",
+  "rubyLsp.rubyExecutablePath": " /Users/ancaenache/.gem/ruby/3.0.0/bin/ruby-lsp",
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "rbenv"
+  },
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "signatureHelp": true
+  },
+  "editor.wordWrap": "on"
+}
